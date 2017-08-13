@@ -4,6 +4,7 @@ var squares = document.querySelectorAll(".square");
 var pickedColor = pickColor();
 var colorDisplay = document.getElementById('colorDisplay');
 var messageDisplay = document.getElementById('message');
+var h1 = document.querySelector("h1");
 
 colorDisplay.textContent = pickedColor;
 
