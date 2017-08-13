@@ -26,6 +26,8 @@ h1 {
 	color: #fff;
 }
 
-span {
-	color: #fff;
+#stripe {
+	background: #fff;
+	height: 30px;
+	text-align: center;
 }
