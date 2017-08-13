@@ -10,11 +10,13 @@ var easyBtn = document.querySelector("#easyBtn");
 var hardBtn = document.querySelector("#hardBtn");
 
 easyBtn.addEventListener("click", function () {
-	
+	easyBtn.classList.add("selected");
+	hardBtn.classList.remove("selected");
 });
 
 hardBtn.addEventListener("click", function () {
-	
+	easyBtn.classList.remove("selected");
+	hardBtn.classList.add("selected");
 });
 
 resetButton.addEventListener("click", function () {
