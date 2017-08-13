@@ -16,3 +16,8 @@ body {
 	float: left;
 	border-radius: 15%;
 }
+
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+}
