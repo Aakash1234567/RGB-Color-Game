@@ -7,3 +7,12 @@
 body {
 	background: #232323;
 }
+
+.square {
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	background: purple;
+	float: left;
+	border-radius: 15%;
+}
