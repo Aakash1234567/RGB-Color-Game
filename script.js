@@ -28,6 +28,7 @@ easyBtn.addEventListener("click", function () {
 hardBtn.addEventListener("click", function () {
 	easyBtn.classList.remove("selected");
 	hardBtn.classList.add("selected");
+	numColors = 6;
 	colors = generateRandomColors(numColors);
 	pickedColor = pickColor();
 	colorDisplay.textContent = pickedColor;
