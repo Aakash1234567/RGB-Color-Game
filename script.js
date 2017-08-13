@@ -20,7 +20,7 @@ for (var i = 0; i < squares.length; i++) {
 		var clickedColor = this.style.background;
 
 		if (clickedColor === pickedColor) {
-
+			messageDisplay.textContent = "Correct!";
 		} else {
 			this.style.background = "#232323";
 			messageDisplay.textContent = "Try Again!"; 
