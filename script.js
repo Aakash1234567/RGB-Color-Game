@@ -6,3 +6,5 @@ var colors = [
 	"rgb(0, 0, 255)",
 	"rgb(255, 0, 255)"
 ];
+
+var squares = document.querySelectorAll(".square");
