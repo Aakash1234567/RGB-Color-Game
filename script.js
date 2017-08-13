@@ -16,6 +16,7 @@ for (var i = 0; i < squares.length; i++) {
 		if (clickedColor === pickedColor) {
 			messageDisplay.textContent = "Correct!";
 			changeColors(clickedColor);
+			h1.style.background = clickedColor;
 		} else {
 			this.style.background = "#232323";
 			messageDisplay.textContent = "Try Again!"; 
